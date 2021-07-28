@@ -1,0 +1,36 @@
+{
+  "name": "hybrowlabs",
+  "version": "1.0.0",
+  "description": "hybrowlabs task to create api in node and expressjs",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshmangalam/hybrowlabs-nodejs-task.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "REST",
+    "API",
+    "Backend"
+  ],
+  "author": "Harsh Mangalam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshmangalam/hybrowlabs-nodejs-task/issues"
+  },
+  "homepage": "https://github.com/harshmangalam/hybrowlabs-nodejs-task#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
